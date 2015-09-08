@@ -1,0 +1,3 @@
+/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/linux.release/DEstimator/../../../mex/mex.glnxa64/DEstimator_Iface.mexa64
+/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/linux.release/DEstimator/../../../lib/libdestimator.so
+/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/linux.release/DEstimator/../../../bin/test_destimator

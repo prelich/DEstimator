@@ -1,0 +1,156 @@
+The target system is: Windows -  - 
+The host system is: Linux - 3.18.11-gentoo - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/3.2.1/CompilerIdCXX/a.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2768547184/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2768547184.dir/build.make CMakeFiles/cmTryCompileExec2768547184.dir/build
+gmake[1]: Entering directory '/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2768547184.dir/testCXXCompiler.cxx.obj
+/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++     -o CMakeFiles/cmTryCompileExec2768547184.dir/testCXXCompiler.cxx.obj -c /home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2768547184.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2768547184.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTryCompileExec2768547184.dir/objects.a
+/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-ar cr CMakeFiles/cmTryCompileExec2768547184.dir/objects.a @CMakeFiles/cmTryCompileExec2768547184.dir/objects1.rsp
+/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++       -Wl,--whole-archive CMakeFiles/cmTryCompileExec2768547184.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2768547184.exe -Wl,--out-implib,libcmTryCompileExec2768547184.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTryCompileExec2768547184.dir/linklibs.rsp
+gmake[1]: Leaving directory '/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec4180417571/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4180417571.dir/build.make CMakeFiles/cmTryCompileExec4180417571.dir/build
+gmake[1]: Entering directory '/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4180417571.dir/CMakeCXXCompilerABI.cpp.obj
+/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++     -o CMakeFiles/cmTryCompileExec4180417571.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4180417571.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4180417571.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTryCompileExec4180417571.dir/objects.a
+/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-ar cr CMakeFiles/cmTryCompileExec4180417571.dir/objects.a @CMakeFiles/cmTryCompileExec4180417571.dir/objects1.rsp
+/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++      -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec4180417571.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4180417571.exe -Wl,--out-implib,libcmTryCompileExec4180417571.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++
+COLLECT_LTO_WRAPPER=/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/lto-wrapper
+Target: x86_64-w64-mingw32.shared
+Configured with: /home/mjo/mxe/tmp-gcc-x86_64-w64-mingw32.shared/gcc-4.9.2/configure --target=x86_64-w64-mingw32.shared --build=x86_64-unknown-linux-gnu --prefix=/home/mjo/mxe/usr --libdir=/home/mjo/mxe/usr/lib --enable-languages=c,c++,objc,fortran --enable-version-specific-runtime-libs --with-gcc --with-gnu-ld --with-gnu-as --disable-nls --disable-multilib --without-x --disable-win32-registry --enable-threads=win32 --disable-libgomp --with-cloog=/home/mjo/mxe/usr --with-gmp=/home/mjo/mxe/usr --with-isl=/home/mjo/mxe/usr --with-mpc=/home/mjo/mxe/usr --with-mpfr=/home/mjo/mxe/usr --with-as=/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-as --with-ld=/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-ld --with-nm=/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-nm
+Thread model: win32
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/:/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/:/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/bin/
+LIBRARY_PATH=/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4180417571.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/collect2 -plugin /home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/liblto_plugin.so -plugin-opt=/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnCIy6C.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTryCompileExec4180417571.exe /home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crt2.o /home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crtbegin.o -L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2 -L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib -L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib --whole-archive CMakeFiles/cmTryCompileExec4180417571.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec4180417571.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crtend.o
+gmake[1]: Leaving directory '/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-w64-mingw32\.shared-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec4180417571/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4180417571.dir/build.make CMakeFiles/cmTryCompileExec4180417571.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/mjo/temp/SMA_Toolbox/tags/DEstimator-1.0/build/w64.release/DEstimator/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4180417571.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++     -o CMakeFiles/cmTryCompileExec4180417571.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4180417571.exe]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4180417571.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cmake -E remove -f CMakeFiles/cmTryCompileExec4180417571.dir/objects.a]
+  ignore line: [/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-ar cr CMakeFiles/cmTryCompileExec4180417571.dir/objects.a @CMakeFiles/cmTryCompileExec4180417571.dir/objects1.rsp]
+  ignore line: [/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++      -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec4180417571.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4180417571.exe -Wl,--out-implib,libcmTryCompileExec4180417571.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/lto-wrapper]
+  ignore line: [Target: x86_64-w64-mingw32.shared]
+  ignore line: [Configured with: /home/mjo/mxe/tmp-gcc-x86_64-w64-mingw32.shared/gcc-4.9.2/configure --target=x86_64-w64-mingw32.shared --build=x86_64-unknown-linux-gnu --prefix=/home/mjo/mxe/usr --libdir=/home/mjo/mxe/usr/lib --enable-languages=c,c++,objc,fortran --enable-version-specific-runtime-libs --with-gcc --with-gnu-ld --with-gnu-as --disable-nls --disable-multilib --without-x --disable-win32-registry --enable-threads=win32 --disable-libgomp --with-cloog=/home/mjo/mxe/usr --with-gmp=/home/mjo/mxe/usr --with-isl=/home/mjo/mxe/usr --with-mpc=/home/mjo/mxe/usr --with-mpfr=/home/mjo/mxe/usr --with-as=/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-as --with-ld=/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-ld --with-nm=/home/mjo/mxe/usr/bin/x86_64-w64-mingw32.shared-nm]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/:/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/:/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/bin/]
+  ignore line: [LIBRARY_PATH=/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/:/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4180417571.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/collect2 -plugin /home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/liblto_plugin.so -plugin-opt=/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnCIy6C.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTryCompileExec4180417571.exe /home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crt2.o /home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crtbegin.o -L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2 -L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib -L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib --whole-archive CMakeFiles/cmTryCompileExec4180417571.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec4180417571.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crtend.o]
+    arg [/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/mjo/mxe/usr/libexec/gcc/x86_64-w64-mingw32.shared/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnCIy6C.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4180417571.exe] ==> ignore
+    arg [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crt2.o] ==> ignore
+    arg [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crtbegin.o] ==> ignore
+    arg [-L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2] ==> dir [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2]
+    arg [-L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib] ==> dir [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib]
+    arg [-L/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib] ==> dir [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec4180417571.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec4180417571.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2] ==> [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2]
+  collapse library dir [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib/../lib] ==> [/home/mjo/mxe/usr/x86_64-w64-mingw32.shared/lib]
+  collapse library dir [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2/../../../../x86_64-w64-mingw32.shared/lib] ==> [/home/mjo/mxe/usr/x86_64-w64-mingw32.shared/lib]
+  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [/home/mjo/mxe/usr/lib/gcc/x86_64-w64-mingw32.shared/4.9.2;/home/mjo/mxe/usr/x86_64-w64-mingw32.shared/lib]
+  implicit fwks: []
+
+

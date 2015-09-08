@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -W -Wall -Wextra -Werror -Wno-unused-parameter -std=c++11 -mtune=native -fopenmp -fPIC -static-libstdc++ -O3 -DARMA_NO_DEBUG -DNDEBUG  -shared -Wl,-soname,libdestimator.so -o libdestimator.so CMakeFiles/destimator.dir/destimator.cpp.o CMakeFiles/destimator.dir/DCompLib.cpp.o -lrefblas -Wl,-rpath,:::::::::::::::::::::::::::::::::::::::::: 

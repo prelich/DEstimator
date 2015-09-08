@@ -1,0 +1,1 @@
+ libdestimator.dll.a /home/mjo/mxe/usr/x86_64-w64-mingw32.shared/bin/libgomp-1.dll /home/mjo/usr/x86_64-w64-mingw32/lib/blas_win64_MT.dll -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
