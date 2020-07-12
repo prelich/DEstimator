@@ -1,0 +1,37 @@
+Installation for "Estimation of the Diffusion COnstant from Intermittent Trajectories with Variable Position Uncertainties" MATLAB code.
+
+Make sure both MATLAB and DIP Image are installed.
+MATLAB can be found at http://www.mathworks.com/products/matlab/
+DIP image can be found at http://www.diplib.org/
+
+There are three sets of M files in this distribution.
+1) DSim class files
+2) Diffusion estimation files
+3) Figure generation files
+
+****************************
+1) The DSim class file is:
+DSim.m
+
+**************************************
+2) The Diffusion Estimation files are:
+computeMLE.m
+LLH_ObsI_recursive1D.m
+LLH_recursive1D.m
+LLH_recursiveND.m
+recursiveFisher1D.m
+waldInterval.m
+
+***********************************
+3) The figure generation files are:
+InfoValsPlot.m
+QuadraticApproximationPlot.m
+Sample_Trajectory.m (requires DIP Image addon for MATLAB)
+Trajectory_Sim.m
+VarInfoPlot.m
+
+
+****************** INSTALLATION ************************************
+Put all of the files in 1) 2) and 3) into the same folder and add to the MATLAB path.
+
+Run any of the figure generation files (3) to re-create the plots as seen in the manuscript.  NOTE:  Trajectory_Sim.m takes 8 hours to run on a modern (~2012) PC. 
